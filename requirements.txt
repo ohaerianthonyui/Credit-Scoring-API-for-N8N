@@ -1,9 +1,7 @@
-Flask==3.1.2
-pandas==2.1.3       # more stable for Linux builds
+Flask==2.3.4
+pandas==2.2.2
+numpy==1.27.8
 scikit-learn==1.6.1
-lightgbm==3.4.3     # stable precompiled wheels
+lightgbm==4.6.0
 joblib==1.5.2
-uvicorn==0.22.0
-numpy==1.26.2       # matches pandas and scikit-learn
-
-
+uvicorn==0.25.2
